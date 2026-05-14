@@ -25,14 +25,27 @@ This repository contains the sample code used in the labs.
     [https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/](https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/)
 <br/>
 
-2. The free tier will be more than enough in this course, so click on any of the ‘start free’ buttons  
-   ![image](./images/gs-1.png)
-<br/>
-
-3. Once you authenticate with your Microsoft account, create a project and make sure the project visibility is set to ‘public’.
-   ![image](./images/gs-5.png)
+2. The free tier will be more than enough in this course, so click on the ‘Get started with Azure’ button
+   ![image](./images/gs-1v2.png)
+<br/><br/><br/>
+   The free tier will work just fine:
+   ![image](./images/gs-1-2v2.png)
+<br/><br/><br/>
+   To make it easier to authenticate, you can use your GitHub account to login. After choosing it, click on 'Authorize Microsoft-corp'. You can use a microsoft email address as a workaround in case the integration is experiencing any issues.
+   ![image](./images/gs-1-3v2.png)
+   <br/><br/><br/>
+3. Once you have logged in to azure, type 'azure devops' in the search bar and click on 'Azure DevOps organizations'
+   ![image](./images/gs-5-0.png)
+   <br/><br/><br/>
+Next click on 'view my organizations'
+   ![image](./images/gs-5-1.png)
+   <br/><br/><br/>
+Access an organization or create a new one, and within it create a project and make sure the project visibility is set to ‘public’.
+   ![image](./images/gs-5v2.png)
+      <br/><br/><br/>
    This will take you to the following page, :
-   ![image](./images/gs-6.png)
+   ![image](./images/gs-6v2.png)
+      <br/><br/>
    📝 **Note:** You can leave this tab open as we will use it in the upcoming lessons.
 
    <br/>
