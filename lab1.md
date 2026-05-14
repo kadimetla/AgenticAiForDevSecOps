@@ -8,17 +8,17 @@
 
 2.	Here is a quick overview of some of the models that can be used with GitHub Copilot:
 
-    💳 Balance between cost and performance:
-    Go with GPT-4o or Claude 3.5 Sonnet.
-    
-    🪙 Fast, lightweight tasks:
-    o3-mini or Claude 3.5 Sonnet are your buddies.
+    💳 Balance between cost and performance: Go with **GPT-5-mini**, **Claude 3.5 Sonnet**, or **DeepSeek V3.2** for excellent quality at lower cost.
 
-    💎 Deep reasoning or complex debugging:
-    Think GPT-4.5, o1, or Claude 3.7 Sonnet.
+    🪙 Fast, lightweight tasks: **Phi-4-mini-instruct**, **Phi-4-mini-reasoning**, **o3-mini**, or **Claude 3.5 Sonnet** are your buddies.
 
-    🖼️ Multimodal inputs (like images):
-    Check out Gemini 2.0 Flash or GPT-4o.
+    💎 Deep reasoning or complex debugging: Think **GPT-5-nano/mini with reasoning**, **o4-mini**, **o1-preview**, **Phi-4-reasoning**, or advanced proprietary models for multi-step problem solving.
+
+    🖼️ Multimodal inputs (like images): Check out **Phi-4-multimodal-instruct**, **Gemini 2.0 Flash**, **GPT-5 series**, or **Gemma 4** for vision and multimodal capabilities.
+
+    🧠 Advanced agentic workflows & tool use: Try **Gemma 4 (31B)**, **NVIDIA Nemotron 3 Super** (120B MoE), **Kimi K2**, or **Mistral Small 4** for reliable tool use and autonomous tasks.
+
+    🔐 Open-source alternatives: **Mistral Small 4** (Apache 2.0), **Llama 3.1**, **Phi-4 series**, **Gemma 4**, or **DeepSeek V3.2** offer strong performance with transparency and flexibility.
 
     <br/>
 
@@ -27,9 +27,9 @@
 <br/>
 
 3. Let’s test out ‘one-shot prompting’.
-    Select OpenAI GPT-4.1-nano then click on compare and select OpenAI GPT-4.1 
+    Select OpenAI GPT-4.1-nano then click on compare and select OpenAI GPT-4.1-mini
 
-    📝 **Note:** if no models appear in the dropdown, click on any of the models at the bottom part of the ‘Welcome to GitHub Models’ screen.
+    📝 **Note:** if no models appear in the dropdown, click on any of the models at the bottom part of the ‘Welcome to GitHub Models’ screen. Some of the models may not be available during peak usage/high consumption.
  
     <br/>
 
@@ -38,7 +38,7 @@
     ![image](./images/lab1/modelplayground1.png)
     <br/>
 
-    📝 **Note:** Nano should be extremely fast as its intended for use cases where latency and resource efficiency are important.  
+    📝 **Note:** Nano should be extremely fast as its intended for use cases where latency and resource efficiency are important. 
 
 <br/>
 
