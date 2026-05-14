@@ -1,3 +1,7 @@
+📝 **Note:** Results will naturally vary depending on several factors, so you should expect the AI model to produce different responses from those shown in the lab. Even if the exact wording or steps differ, the model will still guide you toward the same overall goal. This is where human judgment becomes essential: always review the output, validate its accuracy, and make informed decisions before proceeding.
+
+Most of the examples in these labs were created using earlier versions of the model, so some steps may reflect less‑optimized or “worst‑case” scenarios. This is intentional—it helps illustrate how to guide the model effectively and how to correct or refine its output when needed.
+
 1)	In GitHub, create a new repository by clicking on ‘New repository’
     ![image](./images/lab2/lab2-1.png)
 
