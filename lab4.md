@@ -27,14 +27,17 @@ and click on the copy button for the ‘Download the agent’ section
 5)	Before proceeding with the installation of the agent software in codespaces,
 we will need to modify the gitignore file to add the directory where we will be downloading the agent files to.
 To set this up, go back to Codespaces and start out by syncing changes (just in case), next, in the terminal, create a new branch with the following command:
-<br/>
-git branch feature/git-ignore
-<br/>
-then checkout the branch with the following command:
-git switch feature/git-ignore
+    ```
+    git branch feature/git-ignore
+    ```
+    <br/>
+    then checkout the branch with the following command:
+    ```
+    git switch feature/git-ignore
+    ```
     ![image](./images/lab4/lab4-5.png)
 
-<br/>
+    <br/>
 
 6)	Next, edit the .gitignore file, and add the following lines:
 ```
