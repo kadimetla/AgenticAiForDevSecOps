@@ -25,9 +25,11 @@ and click on the copy button for the ‘Download the agent’ section
 <br/>
 
 5)	Before proceeding with the installation of the agent software in codespaces,
-we will need to modify the gitignore file to add the directory where we will downloading the agent files to
-so in the terminal, lets create a new branch with the following command:
+we will need to modify the gitignore file to add the directory where we will be downloading the agent files to.
+To set this up, go back to Codespaces and start out by syncing changes (just in case), next, in the terminal, create a new branch with the following command:
+<br/>
 git branch feature/git-ignore
+<br/>
 then checkout the branch with the following command:
 git switch feature/git-ignore
     ![image](./images/lab4/lab4-5.png)
@@ -71,15 +73,23 @@ It will ask for the Access Token
 <br/>
 
 12)	 Run the following command in the terminal:
+<br/>
 mkdir myagent && cd myagent
-and type wget and paste the download file we copied from the agent pool which should still be available in the GitHub Chat input
-it should be:
+<br/>
+and next type: 
+<br/>
+wget <paste the download file we copied from the agent pool>
+<br/>
+for example:
+<br/>
 wget https://download.agent.dev.azure.com/agent/4.261.0/vsts-agent-linux-x64-4.261.0.tar.gz
 ![image](./images/lab4/lab4-12.png)
 
 <br/>
 
 13)	Next, lets uncompress the file with:
+<br/>
+tar -xvzf vsts-agent-linux-x64-4.272.0.tar.gz
 ![image](./images/lab4/lab4-13.png)
 
 <br/>
@@ -91,22 +101,24 @@ wget https://download.agent.dev.azure.com/agent/4.261.0/vsts-agent-linux-x64-4.2
 <br/>
 
 15)	Enter the server url:
+<br/>
 It should be https://dev.azure.com/<your azure devops collection name>
+<br/>
 example: https://dev.azure.com/PaulFurlan0409
-(note: its not the project)
+(note: it does not include the project)
+<br/>
 In authentication type, press the ‘enter’ key (for personal access token)
 and paste the Access token (you may need to paste it into the GitHub Copilot chat window and copy it from there, in case it doesn’t let you paste it directly in the terminal)
+<br/>
 For agent pool, input: ado-ai
-For agent name, add a descriptive name, such as: ado-ai-codespaces
-In enter replace hit enter (for default setting)
-and for the work folder, just press enter to leave the default.
 ![image](./images/lab4/lab4-15.png)
 
 <br/>
 
 16)	For agent name, add a descriptive name, such as: ado-ai-codespaces
-In 'enter replace' hit enter (for default setting)
+<br/>
 and for the work folder, just press enter to leave the default.
+<br/>
 After the agent has been configured, type:
 ./run.sh
 ![image](./images/lab4/lab4-16.png)
@@ -129,6 +141,7 @@ add a new terminal session with bash to prevent disruption the terminal session 
 In copilot chat, input the following prompt:
 As a Python testing expert, write unit tests for the to-do list CLI app’s add, list and complete functions using pytest in a new feature branch.
 ![image](./images/lab4/lab4-19.png) <br/>
+<br/>
 ![image](./images/lab4/lab4-19-2.png)
 
 <br/>
