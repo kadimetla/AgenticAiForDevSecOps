@@ -83,17 +83,13 @@ It will ask for the Access Token
 mkdir myagent && cd myagent
 and next type: 
 wget (paste the download file we copied from the agent pool)
-<br/>
-```
-wget https://download.agent.dev.azure.com/agent/4.261.0/vsts-agent-linux-x64-4.261.0.tar.gz
-```
+for example:
+'wget https://download.agent.dev.azure.com/agent/4.261.0/vsts-agent-linux-x64-4.261.0.tar.gz'
 ![image](./images/lab4/lab4-12.png)
 <br/>
 
 13)	Next, lets uncompress the file with:
-<br/>
-tar -xvzf vsts-agent-linux-x64-4.272.0.tar.gz
-<br/>
+'tar -xvzf vsts-agent-linux-x64-4.272.0.tar.gz'
 ![image](./images/lab4/lab4-13.png)
 
 <br/>
@@ -110,18 +106,15 @@ example: https://dev.azure.com/PaulFurlan0409
 (note: it does not include the project)
 In authentication type, press the ‘enter’ key (for personal access token)
 and paste the Access token (you may need to paste it into the GitHub Copilot chat window and copy it from there, in case it doesn’t let you paste it directly in the terminal)
-<br/>
 For agent pool, input: ado-ai
 ![image](./images/lab4/lab4-15.png)
 
 <br/>
 
 16)	For agent name, add a descriptive name, such as: ado-ai-codespaces
-<br/>
 and for the work folder, just press enter to leave the default.
-<br/>
 After the agent has been configured, type:
-./run.sh
+'./run.sh'
 ![image](./images/lab4/lab4-16.png)
 
 <br/>
@@ -141,7 +134,7 @@ add a new terminal session with bash to prevent disruption the terminal session 
 19)	Next, close all open files except ‘todo.py’
 In copilot chat, input the following prompt:
 As a Python testing expert, write unit tests for the to-do list CLI app’s add, list and complete functions using pytest in a new feature branch.
-![image](./images/lab4/lab4-19.png) <br/>
+![image](./images/lab4/lab4-19.png)
 <br/>
 ![image](./images/lab4/lab4-19-2.png)
 
