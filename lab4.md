@@ -42,10 +42,12 @@ To set this up, go back to Codespaces and start out by syncing changes (just in 
     <br/>
 
 6)	Next, edit the .gitignore file, and add the following lines:
+
     ```
     # Azure DevOps Agent
     myagent/
     ```
+
     ![image](./images/lab4/lab4-6.png)
 
     <br/>
@@ -78,19 +80,14 @@ It will ask for the Access Token
 <br/>
 
 12)	 Run the following command in the terminal:
-<br/>
 mkdir myagent && cd myagent
-<br/>
 and next type: 
-<br/>
 wget (paste the download file we copied from the agent pool)
 <br/>
-for example:
-<br/>
+```
 wget https://download.agent.dev.azure.com/agent/4.261.0/vsts-agent-linux-x64-4.261.0.tar.gz
-<br/>
+```
 ![image](./images/lab4/lab4-12.png)
-
 <br/>
 
 13)	Next, lets uncompress the file with:
@@ -108,12 +105,9 @@ tar -xvzf vsts-agent-linux-x64-4.272.0.tar.gz
 <br/>
 
 15)	Enter the server url:
-<br/>
 It should be https://dev.azure.com/<your azure devops collection name>
-<br/>
 example: https://dev.azure.com/PaulFurlan0409
 (note: it does not include the project)
-<br/>
 In authentication type, press the ‘enter’ key (for personal access token)
 and paste the Access token (you may need to paste it into the GitHub Copilot chat window and copy it from there, in case it doesn’t let you paste it directly in the terminal)
 <br/>
