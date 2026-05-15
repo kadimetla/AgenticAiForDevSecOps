@@ -78,7 +78,7 @@ mkdir myagent && cd myagent
 <br/>
 and next type: 
 <br/>
-wget <paste the download file we copied from the agent pool>
+wget (paste the download file we copied from the agent pool)
 <br/>
 for example:
 <br/>
