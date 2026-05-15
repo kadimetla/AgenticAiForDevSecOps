@@ -1,11 +1,11 @@
-1)	For this lab, we will need to make sure the build service will have permissions to interact with the git repository
-Click on project settings > repositories > security
-Select the ado-ai Build Service user and make sure the following are set to allow:
-bypass policies when pushing: Allow
-Contribute: Allow
-Create branch: Allow
-Create tag: Allow
-Read: allow
+1)	For this lab, we will need to make sure the build service will have permissions to interact with the git repository <br>
+Click on project settings > repositories > security <br>
+Select the ado-ai Build Service user and make sure the following are set to allow:<br>
+bypass policies when pushing: Allow <br>
+Contribute: Allow <br>
+Create branch: Allow <br>
+Create tag: Allow <br>
+Read: allow <br>
 ![image](./images/lab5/lab5-1.png)
 
 <br/>
