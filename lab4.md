@@ -83,6 +83,7 @@ wget (paste the download file we copied from the agent pool)
 for example:
 <br/>
 wget https://download.agent.dev.azure.com/agent/4.261.0/vsts-agent-linux-x64-4.261.0.tar.gz
+<br/>
 ![image](./images/lab4/lab4-12.png)
 
 <br/>
@@ -90,6 +91,7 @@ wget https://download.agent.dev.azure.com/agent/4.261.0/vsts-agent-linux-x64-4.2
 13)	Next, lets uncompress the file with:
 <br/>
 tar -xvzf vsts-agent-linux-x64-4.272.0.tar.gz
+<br/>
 ![image](./images/lab4/lab4-13.png)
 
 <br/>
