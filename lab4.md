@@ -112,10 +112,11 @@ For agent pool, input: ado-ai
 
 <br/>
 
-16)	For agent name, add a descriptive name, such as: ado-ai-codespaces
-and for the work folder, just press enter to leave the default.
+16)	For agent name, add a descriptive name, such as: ado-ai-codespaces<br/>
+and for the work folder, just press enter to leave the default.<br/>
 After the agent has been configured, type:
 './run.sh'
+
 ![image](./images/lab4/lab4-16.png)
 
 <br/>
