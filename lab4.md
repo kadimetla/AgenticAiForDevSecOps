@@ -107,7 +107,7 @@ example: https://dev.azure.com/PaulFurlan0409<br>
 In authentication type, press the ‘enter’ key (for personal access token)
 and paste the Access token (you may need to paste it into the GitHub Copilot chat window and copy it from there, in case it doesn’t let you paste it directly in the terminal)
 For agent pool, input: ado-ai
-<br>
+
 ![image](./images/lab4/lab4-15.png)
 
 <br/>
