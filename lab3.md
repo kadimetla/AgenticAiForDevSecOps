@@ -82,7 +82,7 @@ Make the code functional but include a subtle bug that a senior reviewer can cat
 12)	 After successfully pushing it, the new feature branch should appear within Repos > Branches. If the 'main' branch does not appear as the default branch, click on the ellipsis on the right side and select 'set as default branch'
 ![image](./images/lab3/lab3-12v2.png)
 <br />
-Next, Click on ‘create a pull request’
+Next, Click on 'create a pull request'
 ![image](./images/lab3/lab3-12-1.png)
 
 <br />
