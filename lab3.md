@@ -37,18 +37,18 @@ And click on ‘Personal Access Tokens’<br/>
 
 <br />
 
-7)	Click on the ‘New Token’ button
-Input ‘ado-ai’ as the name for the token
-select ‘Custom defined’ scopes
-Then at the bottom click on “Show all scopes”
-In Agent Pools, select “Read & manage”
-In Build, select “read & execute”
-In the Code section, select ‘full”
-In Packaging, select “Read, write & manage”
-In Pipeline resources select “use and manage”
-In Release, select “Read, write, execute & manage”
-In Service connections, select “Read, query & manage”
-and click on ‘create’
+7)	Click on the ‘New Token’ button<br />
+Input ‘ado-ai’ as the name for the token<br />
+select ‘Custom defined’ scopes<br />
+Then at the bottom click on “Show all scopes”<br />
+In Agent Pools, select “Read & manage”<br />
+In Build, select “read & execute”<br />
+In the Code section, select ‘full”<br />
+In Packaging, select “Read, write & manage”<br />
+In Pipeline resources select “use and manage”<br />
+In Release, select “Read, write, execute & manage”<br />
+In Service connections, select “Read, query & manage”<br />
+and click on ‘create’<br />
 Next it will output the token, be sure to write it down somewhere safe as we will be using it throughout the remaining labs
 ![image](./images/lab3/lab3-7.png)
 
@@ -79,9 +79,9 @@ Make the code functional but include a subtle bug that a senior reviewer can cat
 
 <br />
 
-12)	 After successfully pushing it, the new feature branch should appear within Repos > Branches
-Click on ‘create a pull request’
-![image](./images/lab3/lab3-12.png)
+12)	 After successfully pushing it, the new feature branch should appear within Repos > Branches. If the 'main' branch does not appear as the default branch, click on the ellipsis on the right side and select 'set as default branch', and next, Click on ‘create a pull request’
+![image](./images/lab3/lab3-12v2.png)
+![image](./images/lab3/lab3-12-1.png)
 
 <br />
 
