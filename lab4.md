@@ -79,12 +79,13 @@ It will ask for the Access Token
 
 <br/>
 
-12)	 Run the following command in the terminal:
-mkdir myagent && cd myagent
-and next type: 
-wget (paste the download file we copied from the agent pool)
-for example:
+12)	 Run the following command in the terminal:<br>
+mkdir myagent && cd myagent <br>
+and next type: <br>
+wget (paste the download file we copied from the agent pool)<br>
+for example:<br>
 'wget https://download.agent.dev.azure.com/agent/4.261.0/vsts-agent-linux-x64-4.261.0.tar.gz'
+
 ![image](./images/lab4/lab4-12.png)
 <br/>
 
@@ -137,7 +138,7 @@ add a new terminal session with bash to prevent disruption the terminal session 
 In copilot chat, input the following prompt:
 As a Python testing expert, write unit tests for the to-do list CLI app’s add, list and complete functions using pytest in a new feature branch.
 ![image](./images/lab4/lab4-19.png)
-<br/>
+
 ![image](./images/lab4/lab4-19-2.png)
 
 <br/>
