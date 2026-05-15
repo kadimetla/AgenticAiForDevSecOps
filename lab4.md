@@ -32,21 +32,23 @@ To set this up, go back to Codespaces and start out by syncing changes (just in 
     ```
     <br/>
     then checkout the branch with the following command:
+
     ```
     git switch feature/git-ignore
     ```
+
     ![image](./images/lab4/lab4-5.png)
 
     <br/>
 
 6)	Next, edit the .gitignore file, and add the following lines:
-```
-# Azure DevOps Agent
-myagent/
-```
-![image](./images/lab4/lab4-6.png)
+    ```
+    # Azure DevOps Agent
+    myagent/
+    ```
+    ![image](./images/lab4/lab4-6.png)
 
-<br/>
+    <br/>
 
 7)	Commit these changes, and publish the branch to Azure DevOps
 It will ask for the Access Token
